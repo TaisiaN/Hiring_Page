@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hiring</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/bootstrap.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-firestore.js"></script>
+
+
+  <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-storage.js"></script>
+</head>
+
+<body>
+  <header class="header-bg">
+    <div class="container pt-5 pb-4">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/Logo.svg" alt="logo">
+        </div>
+        <div class="col-md-6">
+          <a href="#join" class="link btn-custom btn-join float-right">Join our team</a>
+        </div>
+      </div>
+      <div class="row d-flex align-items-center margint">
+        <div class="col-md-6">
+          <h1 class="text-header " data-aos="fade-right" data-aos-duration="2000">We build
+            <span class="d-block">backend technology</span>
+            for amazing apps
+          </h1>
+        </div>
+        <div class="col-md-6">
+          <img src="images/image_users.png" alt="image" class="img-header mw-100" width="671" height="482">
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="fileds-focus">
+    <div class="container text-center">
+      <h3 class="section-title">Fields we focus on</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card-field d-flex flex-column align-items-center" data-aos="fade-up" data-aos-duration="1000"
+            data-aos-easing="ease-in-sine">
+            <span class="icon-vector icon-filed blue-backgr p-4 rounded-circle "></span>
+            <p class="text-description">Computer graphics</p>
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <div class="card-field d-flex flex-column align-items-center" data-aos="fade-up" data-aos-duration="1500"
+            data-aos-easing="ease-in-sine">
+            <span class="icon-Shape_2 icon-filed green-backgr p-4 rounded-circle "></span>
+            <p class="text-description">Image recognition</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card-field d-flex flex-column align-items-center" data-aos="fade-up" data-aos-duration="2000"
+            data-aos-easing="ease-in-sine">
+            <span class="icon-Shape_1 icon-filed yellow-backgr p-4 rounded-circle "></span>
+            <p class="text-description">Image & Video processing</p>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="bg-color">
+    <div class="container">
+      <h3 class="section-title text-center">Chisinau Office</h3>
+      <div class="row justify-content-center text-center">
+        <div class="col-md-6">
+          <p>We're looking for great engineers who can crack any technology,create and sustain large projects, and are
+            willing to learn something new every day.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-office">
+          <img src="images/Image_1.png" alt="office1" class="mw-100">
+        </div>
+        <div class="col-md-6 col-office">
+          <img src="images/Image_2.png" alt="office2" class="mw-100">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-office">
+          <img src="images/Image_3.png" alt="office1" class="mw-100">
+        </div>
+        <div class="col-md-6 col-office">
+          <img src="images/Image_4.png" alt="office2" class="mw-100">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="perks-benefits">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h3 class="section-title text-center">Perks and benefits</h3>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex flex-row align-items-center mb-5" data-aos="fade-right" data-aos-easing="ease-in-sin"
+            data-aos-duration="1000">
+            <span class="icon-clock icon-perks blue-backgr p-3 rounded-circle"> </span>
+            <p class="text-description">Drinks, coffee & Snacks</p>
+          </div>
+          <div class="d-flex flex-row align-items-center mb-5" data-aos="fade-right" data-aos-easing="ease-in-sine"
+            data-aos-duration="2000">
+            <span class="icon-clock icon-perks green-backgr p-3 rounded-circle"> </span>
+            <p class="text-description">Flexible work hours</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex flex-row align-items-center mb-5" data-aos="fade-right" data-aos-easing="ease-in-sine"
+            data-aos-duration="2500">
+            <span class="icon-dollars icon-perks yellow-backgr p-3 rounded-circle"> </span>
+            <p class="text-description">Legal salary, paid via card</p>
+          </div>
+          <div class="d-flex flex-row align-items-center" data-aos="fade-right" data-aos-easing="ease-in-sine"
+            data-aos-duration="3000">
+            <span class="icon-ballons icon-perks pink-backgr p-3 rounded-circle"> </span>
+            <p class="text-description">Employee social events</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-color">
+    <div class="container text-center">
+      <h3 class="section-title">Work on impactful projects</h3>
+      <span class="nr-photos">800.000+</span>
+      <p>Photos are edited every month using our apps & services.</p>
+    </div>
+  </section>
+  <section id="join">
+    <div class="container">
+      <h3 class="section-title text-center" id="formTitle">join our team</h3>
+      <form id="form-join">
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <label for="fullName">Full Name</label>
+            <input type="text" class="join-form-control input-field mt-2 mb-3" id="fullName" placeholder="John Doe">
+          </div>
+          <div class="col-md-4">
+            <label for="email">Email</label>
+            <input type="email" class="join-form-control input-field mt-2" id="email">
+          </div>
+        </div>
+        <div class="row justify-content-center my-5">
+          <div class="col-md-4">
+            <label for="phone">Phone Number</label>
+            <input type="text" class="join-form-control input-field mt-2 mb-3" id="phone">
+          </div>
+          <div class="col-md-4">
+            <label for="resume">Resume/CV</label>
+            <div class="file-upload-wrapper mt-2 text-center" id="file-upload-name">
+              <span class="delete-file" id="deleteFile" title="Delete file">x</span>
+              <div class="file-select-name" id="noFile">Upload file</div>
+              <input name="chooseFile" type="file" id="chooseFile">
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <button type="submit" class="btn btn-join py-2 w-100" id="submit">Send your application</button>
+          </div>
+        </div>
+      </form>
+      <p class="text-center" id="text-submit">You application has been submitted.</p>
+    </div>
+  </section>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!--  <script src="main.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
