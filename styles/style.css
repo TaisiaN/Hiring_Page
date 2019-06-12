@@ -108,14 +108,28 @@ section {
   font-weight: 700;
 }
 
-.icon-Shape_2:before {
+.icon-Shape_1:before {
   content: "\e901";
+  color: #fc0;
+}
+
+.icon-Shape_2:before {
+  content: "\e906";
   color: #8ae541;
+}
+
+.icon-cup:before {
+  content: "\e902";
+  color: #7ab8f1;
 }
 
 .icon-clock:before {
   content: "\e903";
   color: #8ae541;
+}
+
+.icon-Graph_icon:before {
+  content: "\e900";
 }
 
 .icon-dollars:before {
@@ -128,14 +142,14 @@ section {
   color: #ff78a1;
 }
 
-.icon-Shape_1:before {
-  content: "\e900";
-  color: #fc0;
-}
-
 .icon-filed {
   font-size: 2rem;
   margin-bottom: 1.875rem;
+}
+
+.icon-graph {
+  background: url("../icons/Graph_icon.svg") no-repeat;
+  background-size: 26px 26px;
 }
 
 .blue-backgr {
@@ -155,6 +169,8 @@ section {
 }
 
 .icon-perks {
+  width: 3.75rem;
+  height: 3.75rem;
   font-size: 1.625rem;
 }
 
@@ -224,9 +240,11 @@ label {
   transition: background-color .4s ease-in-out;
   overflow: hidden;
 }
-.file-upload-wrapper.active{
+
+.file-upload-wrapper.active {
   width: 100%;
 }
+
 .file-upload-wrapper .file-select-name {
   height: 50%;
   position: absolute;
@@ -252,12 +270,15 @@ label {
   cursor: pointer;
   overflow: hidden;
 }
+
 .file-upload-wrapper.active:hover {
   background-color: white;
 }
-.file-upload-wrapper.active:hover .file-select-name{
+
+.file-upload-wrapper.active:hover .file-select-name {
   color: #4970fc;
 }
+
 .file-upload-wrapper input[type="file"] {
   opacity: 0;
   position: absolute;
@@ -272,21 +293,25 @@ label {
   cursor: pointer;
   width: 100%;
 }
-.file-upload-wrapper.active input[type="file"]{
+
+.file-upload-wrapper.active input[type="file"] {
   width: 80%;
 }
-.delete-file{
+
+.delete-file {
   position: absolute;
   top: -0.625rem;
   right: 0px;
   padding: 0.16rem 0.5rem;
-  font-size:1.125rem;
+  font-size: 1.125rem;
   display: none;
   cursor: pointer;
 }
- .file-upload-wrapper.active:hover .delete-file{
+
+.file-upload-wrapper.active:hover .delete-file {
   color: red;
 }
- #text-submit{
-display: none;
+
+#text-submit {
+  display: none;
 }
